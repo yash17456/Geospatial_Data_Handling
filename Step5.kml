@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Vermont-Expo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291612,34.018351</coordinates></Point>
+</Placemark>
+<Placemark><name>Vermont-Jeff</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291590,34.025514</coordinates></Point>
+</Placemark>
+<Placemark><name>Expo-Figueroa</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282351,34.018316</coordinates></Point>
+</Placemark>
+<Placemark><name>Jeff-Figueroa</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280015,34.021837</coordinates></Point>
+</Placemark>
+<Placemark><name>RTCC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286487,34.020172</coordinates></Point>
+</Placemark>
+<Placemark><name>USC-Bookstore</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286538,34.020640</coordinates></Point>
+</Placemark>
+<Placemark><name>Tommy-Trojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285447,34.020565</coordinates></Point>
+</Placemark>
+<Placemark><name>Law-School</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284278,34.018675</coordinates></Point>
+</Placemark>
+<Placemark><name>USC-Viterbi</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288814,34.020359</coordinates></Point>
+</Placemark>
+<Placemark><name>Hubbard-Hall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284084,34.019529</coordinates></Point>
+</Placemark>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287166,34.032584</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM-Building</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289030,34.021438</coordinates></Point>
+</Placemark>
+ 
+ 
+<Placemark><name>Convex_Hull</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.291612,34.018351,0  -118.282351,34.018316,0</coordinates>
+      </LineString>
+</Placemark>
+
+<Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.282351,34.018316,0  -118.280015,34.021837,0</coordinates>
+      </LineString>
+</Placemark>
+
+
+<Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.280015,34.021837,0  -118.287166,34.032584,0</coordinates>
+      </LineString>
+</Placemark>
+	
+<Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.287166,34.032584,0  -118.291590,34.025514,0</coordinates>
+      </LineString>
+</Placemark>
+	
+<Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.291612,34.018351,0  -118.282351,34.018316,0</coordinates>
+      </LineString>
+</Placemark>
+
+<Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.291590,34.025514,0  -118.291612,34.018351,0</coordinates>
+      </LineString>
+</Placemark>
+
+
+
+
+<Placemark><name>(home,neighbour1)</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.287166,34.032584,0  -118.291590,34.025514,0</coordinates>
+      </LineString>
+</Placemark>
+
+<Placemark><name>(home,neighbour2)</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.287166,34.032584,0  -118.289030,34.021438,0</coordinates>
+      </LineString>
+</Placemark>
+
+<Placemark><name>(home,neighbour3)</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.287166,34.032584,0  -118.286538,34.020640,0</coordinates>
+      </LineString>
+</Placemark>
+
+<Placemark><name>(home,neighbour4)</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.287166,34.032584,0  -118.285447,34.020565,0</coordinates>
+      </LineString>
+</Placemark>
+
+</Document></kml>
